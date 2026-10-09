@@ -1,0 +1,36 @@
+# Keil user and build files
+MDK-ARM/DebugConfig/
+MDK-ARM/test_demo/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvoptx
+MDK-ARM/*.lst
+MDK-ARM/*.map
+MDK-ARM/*.axf
+MDK-ARM/*.hex
+MDK-ARM/*.bin
+MDK-ARM/*.o
+MDK-ARM/*.d
+MDK-ARM/*.crf
+MDK-ARM/*.dep
+MDK-ARM/*.lnp
+MDK-ARM/*.htm
+
+# Editor and temporary files
+*.bak
+*.tmp
+*.log
+.vscode/
+.idea/
+
+# Unused CMSIS packages copied by CubeMX
+Drivers/CMSIS/Core/
+Drivers/CMSIS/Core_A/
+Drivers/CMSIS/docs/
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/Lib/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/RTOS/
+Drivers/CMSIS/RTOS2/
+Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/
